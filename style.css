@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap");
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+.nav-custoom-bg {
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+  background: linear-gradient(to right, #fc6767, #ec008c);
+}
+.carousel-bg {
+  background: -webkit-linear-gradient(to right, #928dab, #1f1c2c);
+  background: linear-gradient(to right, #928dab, #1f1c2c);
+}
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d2cebe;
+}
+.carousel-indicators .active {
+  background-color: #6dbd44;
+}
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 10px;
+}
+footer > small > span {
+  color: #dc143c;
+}
